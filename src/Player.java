@@ -30,52 +30,8 @@ public class Player {
         this.skills = skills;
     }
 
-    public String getName() {
-        return name;
-    }
-
     public Position getPosition() {
         return position;
-    }
-
-    public int getHeight() {
-        return height;
-    }
-
-    public int getReflexes() {
-        return reflexes;
-    }
-
-    public int getStrength() {
-        return strength;
-    }
-
-    public int getSpeed() {
-        return speed;
-    }
-
-    public int getPassing() {
-        return passing;
-    }
-
-    public int getFinishing() {
-        return finishing;
-    }
-
-    public int getStamina() {
-        return stamina;
-    }
-
-    public int getTackling() {
-        return tackling;
-    }
-
-    public int getDribbling() {
-        return dribbling;
-    }
-
-    public int getSkills() {
-        return skills;
     }
 
 

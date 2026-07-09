@@ -15,13 +15,6 @@ public class Team {
         this.players = new ArrayList<>();
     }
 
-    public Formation getFormation() {
-        return formation;
-    }
-
-    public List<Player> getPlayers() {
-        return players;
-    }
 
     /**
      * Calculates the overall rating of the team by averaging
