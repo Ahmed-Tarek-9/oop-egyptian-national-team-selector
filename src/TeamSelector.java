@@ -27,18 +27,10 @@ public class TeamSelector {
 
         for (Player p : players) {      // separate the players into their respective positions
             switch (p.getPosition()) {
-                case GOALKEEPER:
-                    goalkeepers.add(p);
-                    break;
-                case DEFENDER:
-                    defenders.add(p);
-                    break;
-                case MIDFIELDER:
-                    midfielders.add(p);
-                    break;
-                case STRIKER:
-                    strikers.add(p);
-                    break;
+                case GOALKEEPER -> goalkeepers.add(p);
+                case DEFENDER   -> defenders.add(p);
+                case MIDFIELDER -> midfielders.add(p);
+                case STRIKER    -> strikers.add(p);
             }
         }
 
