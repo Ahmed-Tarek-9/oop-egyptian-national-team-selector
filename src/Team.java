@@ -7,7 +7,7 @@ import java.util.List;
  */
 
 public class Team {
-    private List<Player> players;
+    private final List<Player> players;
     private final Formation formation;
 
     public Team(Formation formation) {
